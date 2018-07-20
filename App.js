@@ -4,7 +4,7 @@ import ApolloClient ,{ createNetworkInterface, addTypename } from 'apollo-client
 import MainNavigator from './MainNavigator';
 
 const networkInterface = createNetworkInterface({
-  uri: 'http://mt.com.mm/graphql',
+  uri: 'http://192.168.31.199:3232/graphql',
   opts:{
     credentials: 'same-origin'
   },
